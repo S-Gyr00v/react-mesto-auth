@@ -72,7 +72,7 @@ function App() {
   }
 
   useEffect(() => {
-    if (loggedIn) {
+    if ([loggedIn]) {
     api
       .getProfile()
       .then((res) => {
