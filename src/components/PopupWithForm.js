@@ -7,7 +7,7 @@ export default function PopupWithForm({name, title, isOpen, children, onClose, o
     <section className={`popup popup_${name} ${isOpen ? 'popup_opened' : ''}`} >
     <div className={`popup__container popup__container_${name}`}>
       <h2 className="popup__title">{title}</h2>
-      <form className="popup__form" name={name} noValidate="" onSubmit={onSubmit}>
+      <form className="popup__form" name={name}  onSubmit={onSubmit}>
          {children}   
         <button
           type="submit"

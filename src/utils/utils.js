@@ -1,6 +1,4 @@
-export const popupImageData = document.querySelector(".popup__card-image");
-export const popupImageText = document.querySelector(".popup__card-text");
-export const popupImageImage = document.querySelector(".popup_image");
+
 // export const ESC_KEYCODE = 27;
 
 export function openPopup(popup) {
